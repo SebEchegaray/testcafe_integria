@@ -234,3 +234,39 @@ Date: Wed, 18 May 2022 03:13:21 GMT
 [2022-05-18 03:44:28Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 3.
 [2022-05-18 03:44:28Z INFO JobNotification] Entering JobCompleted Notification
 [2022-05-18 03:44:28Z INFO JobNotification] Entering EndMonitor
+[2022-05-18 03:45:34Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/.credentials_rsaparams
+[2022-05-18 03:45:34Z INFO MessageListener] Message '4' received from session '9ae41a38-051b-40c3-9901-b02a6b4ae685'.
+[2022-05-18 03:45:34Z INFO Runner] Received job message of length 20209 from service, with hash 'eb17b561bea2c53a859c6533becdba17566df32c03a236d5529bcc5ccb86b2fe'
+[2022-05-18 03:45:34Z INFO JobDispatcher] Job request 4 for plan 1deb3ae0-d84c-4a14-af14-5b777ea1aca8 job 5264e576-3c6f-51f6-f055-fab409685f20 received.
+[2022-05-18 03:45:34Z INFO JobDispatcher] Pull OrchestrationId 1deb3ae0-d84c-4a14-af14-5b777ea1aca8.test.__default from JWT claims
+[2022-05-18 03:45:34Z INFO JobDispatcher] Job request 5264e576-3c6f-51f6-f055-fab409685f20 processed succeed.
+[2022-05-18 03:45:34Z INFO Terminal] WRITE LINE: 2022-05-18 03:45:34Z: Running job: Run TestCafe Tests
+[2022-05-18 03:45:34Z INFO JobDispatcher] Start renew job request 4 for job 5264e576-3c6f-51f6-f055-fab409685f20.
+[2022-05-18 03:45:35Z INFO JobDispatcher] Successfully renew job request 4, job is valid till 18/5/2022 3:55:35 am
+[2022-05-18 03:45:35Z INFO HostContext] Well known directory 'Bin': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/bin'
+[2022-05-18 03:45:35Z INFO ProcessInvokerWrapper] Starting process:
+[2022-05-18 03:45:35Z INFO ProcessInvokerWrapper]   File name: '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/bin/Runner.Worker'
+[2022-05-18 03:45:35Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 111 114'
+[2022-05-18 03:45:35Z INFO ProcessInvokerWrapper]   Working directory: '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/bin'
+[2022-05-18 03:45:35Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2022-05-18 03:45:35Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2022-05-18 03:45:35Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2022-05-18 03:45:35Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2022-05-18 03:45:35Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2022-05-18 03:45:35Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2022-05-18 03:45:35Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2022-05-18 03:45:35Z INFO ProcessInvokerWrapper] Process started with process id 9624, waiting for process exit.
+[2022-05-18 03:45:35Z INFO JobDispatcher] Send job request message to worker for job 5264e576-3c6f-51f6-f055-fab409685f20.
+[2022-05-18 03:45:35Z INFO ProcessChannel] Sending message of length 20209, with hash 'eb17b561bea2c53a859c6533becdba17566df32c03a236d5529bcc5ccb86b2fe'
+[2022-05-18 03:45:35Z INFO JobNotification] Entering JobStarted Notification
+[2022-05-18 03:45:35Z INFO JobNotification] Entering StartMonitor
+[2022-05-18 03:45:54Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-05-18 03:45:54Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-05-18 03:45:54Z INFO ProcessInvokerWrapper] Finished process 9624 with exit code 102, and elapsed time 00:00:19.6179432.
+[2022-05-18 03:45:54Z INFO JobDispatcher] Worker finished for job 5264e576-3c6f-51f6-f055-fab409685f20. Code: 102
+[2022-05-18 03:45:54Z INFO JobDispatcher] finish job request for job 5264e576-3c6f-51f6-f055-fab409685f20 with result: Failed
+[2022-05-18 03:45:54Z INFO Terminal] WRITE LINE: 2022-05-18 03:45:54Z: Job Run TestCafe Tests completed with result: Failed
+[2022-05-18 03:45:54Z INFO JobDispatcher] Stop renew job request for job 5264e576-3c6f-51f6-f055-fab409685f20.
+[2022-05-18 03:45:54Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 4.
+[2022-05-18 03:45:54Z INFO JobNotification] Entering JobCompleted Notification
+[2022-05-18 03:45:54Z INFO JobNotification] Entering EndMonitor
