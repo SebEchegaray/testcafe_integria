@@ -1,0 +1,12 @@
+﻿{
+  "repositoryName": "SebEchegaray/testcafe_integria",
+  "pipelineDirectory": "testcafe_integria",
+  "workspaceDirectory": "testcafe_integria/testcafe_integria",
+  "repositories": {
+    "SebEchegaray/testcafe_integria": {
+      "repositoryPath": "testcafe_integria/testcafe_integria",
+      "lastRunOn": "05/18/2022 13:31:04 +10:00"
+    }
+  },
+  "lastRunOn": "05/18/2022 13:31:04 +10:00"
+}

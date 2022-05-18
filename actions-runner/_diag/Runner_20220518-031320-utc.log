@@ -1,0 +1,164 @@
+[2022-05-18 03:13:20Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2022-05-18 03:13:20Z INFO HostContext] Well known directory 'Bin': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/bin'
+[2022-05-18 03:13:20Z INFO HostContext] Well known directory 'Root': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner'
+[2022-05-18 03:13:20Z INFO HostContext] Well known config file 'Credentials': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/.credentials'
+[2022-05-18 03:13:20Z INFO HostContext] Well known directory 'Bin': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/bin'
+[2022-05-18 03:13:20Z INFO HostContext] Well known directory 'Root': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner'
+[2022-05-18 03:13:20Z INFO HostContext] Well known config file 'Runner': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/.runner'
+[2022-05-18 03:13:20Z INFO Listener] Runner is built for OSX (X64) - osx-x64.
+[2022-05-18 03:13:20Z INFO Listener] RuntimeInformation: Darwin 19.6.0 Darwin Kernel Version 19.6.0: Thu Oct 29 22:56:45 PDT 2020; root:xnu-6153.141.2.2~1/RELEASE_X86_64.
+[2022-05-18 03:13:20Z INFO Listener] Version: 2.291.1
+[2022-05-18 03:13:20Z INFO Listener] Commit: 496ec0df97891bd8e50f4431d01874ac3ab75a93
+[2022-05-18 03:13:20Z INFO Listener] Culture: en-AU
+[2022-05-18 03:13:20Z INFO Listener] UI Culture: en-AU
+[2022-05-18 03:13:20Z INFO HostContext] Well known directory 'Bin': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/bin'
+[2022-05-18 03:13:20Z INFO HostContext] Well known directory 'Root': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner'
+[2022-05-18 03:13:20Z INFO Listener] Validating directory permissions for: '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner'
+[2022-05-18 03:13:20Z INFO CommandLineParser] Parse
+[2022-05-18 03:13:20Z INFO CommandLineParser] Parsing 1 args
+[2022-05-18 03:13:20Z INFO CommandLineParser] parsing argument
+[2022-05-18 03:13:20Z INFO CommandLineParser] HasArgs: False
+[2022-05-18 03:13:20Z INFO CommandLineParser] Adding Command: run
+[2022-05-18 03:13:20Z INFO Listener] Arguments parsed
+[2022-05-18 03:13:20Z INFO Runner] ExecuteCommand
+[2022-05-18 03:13:20Z INFO ConfigurationStore] currentAssemblyLocation: /Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/bin/Runner.Listener.dll
+[2022-05-18 03:13:20Z INFO HostContext] Well known directory 'Bin': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/bin'
+[2022-05-18 03:13:20Z INFO ConfigurationStore] binPath: /Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/bin
+[2022-05-18 03:13:20Z INFO HostContext] Well known directory 'Bin': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/bin'
+[2022-05-18 03:13:20Z INFO HostContext] Well known directory 'Root': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner'
+[2022-05-18 03:13:20Z INFO ConfigurationStore] RootFolder: /Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner
+[2022-05-18 03:13:20Z INFO HostContext] Well known directory 'Bin': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/bin'
+[2022-05-18 03:13:20Z INFO HostContext] Well known directory 'Root': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner'
+[2022-05-18 03:13:20Z INFO HostContext] Well known config file 'Runner': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/.runner'
+[2022-05-18 03:13:20Z INFO ConfigurationStore] ConfigFilePath: /Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/.runner
+[2022-05-18 03:13:20Z INFO HostContext] Well known directory 'Bin': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/bin'
+[2022-05-18 03:13:20Z INFO HostContext] Well known directory 'Root': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner'
+[2022-05-18 03:13:20Z INFO HostContext] Well known config file 'Credentials': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/.credentials'
+[2022-05-18 03:13:20Z INFO ConfigurationStore] CredFilePath: /Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/.credentials
+[2022-05-18 03:13:20Z INFO HostContext] Well known directory 'Bin': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/bin'
+[2022-05-18 03:13:20Z INFO HostContext] Well known directory 'Root': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner'
+[2022-05-18 03:13:20Z INFO HostContext] Well known config file 'MigratedCredentials': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/.credentials_migrated'
+[2022-05-18 03:13:20Z INFO ConfigurationStore] MigratedCredFilePath: /Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/.credentials_migrated
+[2022-05-18 03:13:20Z INFO HostContext] Well known directory 'Bin': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/bin'
+[2022-05-18 03:13:20Z INFO HostContext] Well known directory 'Root': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner'
+[2022-05-18 03:13:20Z INFO HostContext] Well known config file 'Service': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/.service'
+[2022-05-18 03:13:20Z INFO ConfigurationStore] ServiceConfigFilePath: /Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/.service
+[2022-05-18 03:13:20Z INFO CommandSettings] Flag 'help': 'False'
+[2022-05-18 03:13:20Z INFO CommandSettings] Flag 'version': 'False'
+[2022-05-18 03:13:20Z INFO CommandSettings] Flag 'commit': 'False'
+[2022-05-18 03:13:20Z INFO CommandSettings] Flag 'check': 'False'
+[2022-05-18 03:13:20Z INFO CommandSettings] Command 'configure': 'False'
+[2022-05-18 03:13:20Z INFO CommandSettings] Command 'remove': 'False'
+[2022-05-18 03:13:20Z INFO CommandSettings] Command 'warmup': 'False'
+[2022-05-18 03:13:20Z INFO ConfigurationManager] LoadSettings
+[2022-05-18 03:13:20Z INFO ConfigurationStore] IsConfigured()
+[2022-05-18 03:13:20Z INFO ConfigurationStore] IsConfigured: True
+[2022-05-18 03:13:20Z INFO ConfigurationManager] Is configured: True
+[2022-05-18 03:13:20Z INFO ConfigurationStore] Read setting file: 309 chars
+[2022-05-18 03:13:20Z INFO ConfigurationManager] Settings Loaded
+[2022-05-18 03:13:20Z INFO ConfigurationStore] IsServiceConfigured()
+[2022-05-18 03:13:20Z INFO ConfigurationStore] IsServiceConfigured: False
+[2022-05-18 03:13:20Z INFO CommandSettings] Command 'run': 'True'
+[2022-05-18 03:13:20Z INFO ConfigurationStore] IsConfigured()
+[2022-05-18 03:13:20Z INFO ConfigurationStore] IsConfigured: True
+[2022-05-18 03:13:20Z INFO ConfigurationManager] Is configured: True
+[2022-05-18 03:13:20Z INFO Runner] Could not parse the argument value '' for StartupType. Defaulting to Manual
+[2022-05-18 03:13:20Z INFO Runner] Set runner startup type - Manual
+[2022-05-18 03:13:20Z INFO CommandSettings] Flag 'once': 'False'
+[2022-05-18 03:13:20Z INFO CommandSettings] Flag 'once': 'False'
+[2022-05-18 03:13:20Z INFO Runner] RunAsync
+[2022-05-18 03:13:20Z INFO ConfigurationManager] LoadSettings
+[2022-05-18 03:13:20Z INFO ConfigurationStore] IsConfigured()
+[2022-05-18 03:13:20Z INFO ConfigurationStore] IsConfigured: True
+[2022-05-18 03:13:20Z INFO ConfigurationManager] Is configured: True
+[2022-05-18 03:13:20Z INFO ConfigurationManager] Settings Loaded
+[2022-05-18 03:13:20Z INFO MessageListener] {
+  "AgentId": 2,
+  "AgentName": "Sebastians-MacBook-Pro",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://pipelines.actions.githubusercontent.com/8bVFjSri8IazULahKhjsZ6BbSKsf8Fdf1TIGbsk3hUNl5TlUwH",
+  "GitHubUrl": "https://github.com/SebEchegaray/testcafe_integria",
+  "WorkFolder": "_work"
+}
+[2022-05-18 03:13:20Z INFO MessageListener] Loading Credentials
+[2022-05-18 03:13:20Z INFO ConfigurationStore] HasCredentials()
+[2022-05-18 03:13:20Z INFO ConfigurationStore] stored True
+[2022-05-18 03:13:20Z INFO CredentialManager] GetCredentialProvider
+[2022-05-18 03:13:20Z INFO CredentialManager] Creating type OAuth
+[2022-05-18 03:13:20Z INFO CredentialManager] Creating credential type: OAuth
+[2022-05-18 03:13:20Z INFO HostContext] Well known directory 'Bin': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/bin'
+[2022-05-18 03:13:20Z INFO HostContext] Well known directory 'Root': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner'
+[2022-05-18 03:13:20Z INFO HostContext] Well known config file 'RSACredentials': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/.credentials_rsaparams'
+[2022-05-18 03:13:20Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/.credentials_rsaparams
+[2022-05-18 03:13:20Z INFO MessageListener] Attempt to create session.
+[2022-05-18 03:13:20Z INFO MessageListener] Connecting to the Runner Server...
+[2022-05-18 03:13:20Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2022-05-18 03:13:20Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2022-05-18 03:13:20Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2022-05-18 03:13:20Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2022-05-18 03:13:20Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2022-05-18 03:13:20Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2022-05-18 03:13:21Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2022-05-18 03:13:21Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2022-05-18 03:13:21Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2022-05-18 03:13:22Z INFO MessageListener] VssConnection created
+[2022-05-18 03:13:22Z INFO Terminal] WRITE LINE: 
+[2022-05-18 03:13:22Z INFO Terminal] WRITE LINE: 
+[2022-05-18 03:13:22Z WARN GitHubActionsService] Authentication failed with status code 401.
+Transfer-Encoding: chunked
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: 343c8edf-3e1c-4168-b58a-0b345d73108c
+ActivityId: fc336f20-cc10-482a-a75b-eafd3f1bdd03
+X-TFS-Session: 55ad1186-d1fe-4e5a-a3a7-b2070fa33a3a
+X-VSS-E2EID: 9c48f342-ee41-406d-9b8a-0b7df3eb5e69
+X-VSS-SenderDeploymentId: 9d51f527-7c54-71ef-5aa4-7c3dc660eb8a
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 247702B2D43945FEA277700152D05817 Ref B: MEL01EDGE0706 Ref C: 2022-05-18T03:13:22Z
+Date: Wed, 18 May 2022 03:13:21 GMT
+
+[2022-05-18 03:13:22Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/.credentials_rsaparams
+[2022-05-18 03:13:22Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/.credentials_rsaparams
+[2022-05-18 03:13:23Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2022-05-18 03:13:23Z INFO MessageListener] Session created.
+[2022-05-18 03:13:23Z INFO Terminal] WRITE LINE: Current runner version: '2.291.1'
+[2022-05-18 03:13:23Z INFO Terminal] WRITE LINE: 2022-05-18 03:13:23Z: Listening for Jobs
+[2022-05-18 03:13:23Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2022-05-18 03:30:59Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/.credentials_rsaparams
+[2022-05-18 03:30:59Z INFO MessageListener] Message '1' received from session '9ae41a38-051b-40c3-9901-b02a6b4ae685'.
+[2022-05-18 03:30:59Z INFO Runner] Received job message of length 20295 from service, with hash 'ceae3960acf569a096d6be6f7adf847726dcb5c9ad9f2b440623ece43909f1cb'
+[2022-05-18 03:30:59Z INFO JobDispatcher] Job request 1 for plan 50b27f7a-1b43-4b6d-b606-e245c8a968a3 job 5264e576-3c6f-51f6-f055-fab409685f20 received.
+[2022-05-18 03:30:59Z INFO JobDispatcher] Pull OrchestrationId 50b27f7a-1b43-4b6d-b606-e245c8a968a3.test.__default from JWT claims
+[2022-05-18 03:30:59Z INFO Terminal] WRITE LINE: 2022-05-18 03:30:59Z: Running job: Run TestCafe Tests
+[2022-05-18 03:30:59Z INFO JobDispatcher] Start renew job request 1 for job 5264e576-3c6f-51f6-f055-fab409685f20.
+[2022-05-18 03:31:00Z INFO JobDispatcher] Successfully renew job request 1, job is valid till 18/5/2022 3:41:00 am
+[2022-05-18 03:31:00Z INFO HostContext] Well known directory 'Bin': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/bin'
+[2022-05-18 03:31:00Z INFO ProcessInvokerWrapper] Starting process:
+[2022-05-18 03:31:00Z INFO ProcessInvokerWrapper]   File name: '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/bin/Runner.Worker'
+[2022-05-18 03:31:00Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 111 114'
+[2022-05-18 03:31:00Z INFO ProcessInvokerWrapper]   Working directory: '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/bin'
+[2022-05-18 03:31:00Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2022-05-18 03:31:00Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2022-05-18 03:31:00Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2022-05-18 03:31:00Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2022-05-18 03:31:00Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2022-05-18 03:31:00Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2022-05-18 03:31:00Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2022-05-18 03:31:00Z INFO ProcessInvokerWrapper] Process started with process id 6670, waiting for process exit.
+[2022-05-18 03:31:00Z INFO JobDispatcher] Send job request message to worker for job 5264e576-3c6f-51f6-f055-fab409685f20.
+[2022-05-18 03:31:00Z INFO ProcessChannel] Sending message of length 20295, with hash 'ceae3960acf569a096d6be6f7adf847726dcb5c9ad9f2b440623ece43909f1cb'
+[2022-05-18 03:31:00Z INFO JobNotification] Entering JobStarted Notification
+[2022-05-18 03:31:00Z INFO JobNotification] Entering StartMonitor
+[2022-05-18 03:31:54Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-05-18 03:31:54Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-05-18 03:31:54Z INFO ProcessInvokerWrapper] Finished process 6670 with exit code 102, and elapsed time 00:00:54.3293743.
+[2022-05-18 03:31:54Z INFO JobDispatcher] Worker finished for job 5264e576-3c6f-51f6-f055-fab409685f20. Code: 102
+[2022-05-18 03:31:54Z INFO JobDispatcher] finish job request for job 5264e576-3c6f-51f6-f055-fab409685f20 with result: Failed
+[2022-05-18 03:31:54Z INFO Terminal] WRITE LINE: 2022-05-18 03:31:54Z: Job Run TestCafe Tests completed with result: Failed
+[2022-05-18 03:31:54Z INFO JobDispatcher] Stop renew job request for job 5264e576-3c6f-51f6-f055-fab409685f20.
+[2022-05-18 03:31:54Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 1.
+[2022-05-18 03:31:54Z INFO JobNotification] Entering JobCompleted Notification
+[2022-05-18 03:31:54Z INFO JobNotification] Entering EndMonitor

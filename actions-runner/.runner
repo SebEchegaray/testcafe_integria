@@ -1,0 +1,9 @@
+﻿{
+  "agentId": 2,
+  "agentName": "Sebastians-MacBook-Pro",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelines.actions.githubusercontent.com/8bVFjSri8IazULahKhjsZ6BbSKsf8Fdf1TIGbsk3hUNl5TlUwH",
+  "gitHubUrl": "https://github.com/SebEchegaray/testcafe_integria",
+  "workFolder": "_work"
+}
