@@ -200,6 +200,7 @@ Date: Wed, 18 May 2022 03:13:21 GMT
 [2022-05-18 03:41:38Z INFO JobNotification] Entering EndMonitor
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 [2022-05-18 03:44:06Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/.credentials_rsaparams
 [2022-05-18 03:44:06Z INFO MessageListener] Message '3' received from session '9ae41a38-051b-40c3-9901-b02a6b4ae685'.
 [2022-05-18 03:44:06Z INFO Runner] Received job message of length 20165 from service, with hash '62dd72339ea51c593d97f0b5daec1d83553085f3380965854b1b9c22a3467adf'
@@ -272,6 +273,8 @@ Date: Wed, 18 May 2022 03:13:21 GMT
 [2022-05-18 03:45:54Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 4.
 [2022-05-18 03:45:54Z INFO JobNotification] Entering JobCompleted Notification
 [2022-05-18 03:45:54Z INFO JobNotification] Entering EndMonitor
+=======
+>>>>>>> parent of 9ca3d8b5... Used wrong word in JS file. Used FEATURE instead of FIXTURE
 =======
 >>>>>>> parent of 9ca3d8b5... Used wrong word in JS file. Used FEATURE instead of FIXTURE
 =======
