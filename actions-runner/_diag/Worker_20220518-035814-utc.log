@@ -1,0 +1,1344 @@
+[2022-05-18 03:58:14Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2022-05-18 03:58:14Z INFO HostContext] Well known directory 'Bin': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/bin'
+[2022-05-18 03:58:14Z INFO HostContext] Well known directory 'Root': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner'
+[2022-05-18 03:58:14Z INFO HostContext] Well known config file 'Credentials': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/.credentials'
+[2022-05-18 03:58:14Z INFO HostContext] Well known directory 'Bin': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/bin'
+[2022-05-18 03:58:14Z INFO HostContext] Well known directory 'Root': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner'
+[2022-05-18 03:58:14Z INFO HostContext] Well known config file 'Runner': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/.runner'
+[2022-05-18 03:58:14Z INFO Worker] Version: 2.291.1
+[2022-05-18 03:58:14Z INFO Worker] Commit: 496ec0df97891bd8e50f4431d01874ac3ab75a93
+[2022-05-18 03:58:14Z INFO Worker] Culture: en-AU
+[2022-05-18 03:58:14Z INFO Worker] UI Culture: en-AU
+[2022-05-18 03:58:14Z INFO Worker] Waiting to receive the job message from the channel.
+[2022-05-18 03:58:14Z INFO ProcessChannel] Receiving message of length 21504, with hash 'a18cd9479b7888512e30a97c80d274936c498714e1c8acf75387d2d99274d87a'
+[2022-05-18 03:58:14Z INFO Worker] Message received.
+[2022-05-18 03:58:15Z INFO Worker] Job message:
+ {
+  "fileTable": [
+    ".github/workflows/about-us-testing.yml"
+  ],
+  "mask": [
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    }
+  ],
+  "steps": [
+    {
+      "type": "action",
+      "reference": {
+        "type": "repository",
+        "name": "DevExpress/testcafe-action",
+        "ref": "latest",
+        "repositoryType": "GitHub",
+        "path": ""
+      },
+      "displayNameToken": {
+        "type": 0,
+        "file": 1,
+        "line": 9,
+        "col": 15,
+        "lit": "Run tests"
+      },
+      "contextName": "__DevExpress_testcafe-action",
+      "inputs": {
+        "type": 2,
+        "file": 1,
+        "line": 12,
+        "col": 11,
+        "map": [
+          {
+            "key": {
+              "type": 0,
+              "file": 1,
+              "line": 12,
+              "col": 11,
+              "lit": "args"
+            },
+            "value": {
+              "type": 0,
+              "file": 1,
+              "line": 12,
+              "col": 17,
+              "lit": "chrome tests"
+            }
+          }
+        ]
+      },
+      "condition": "success()",
+      "id": "c4cfcb28-1921-5f8a-5aaa-0efbefdf97b0",
+      "name": "__DevExpress_testcafe-action"
+    }
+  ],
+  "variables": {
+    "system.isScheduled": {
+      "value": "False"
+    },
+    "system.servertype": {
+      "value": "Hosted"
+    },
+    "system.culture": {
+      "value": "en-US"
+    },
+    "system.pipelineStartTime": {
+      "value": "2022-05-18 03:58:11+00:00"
+    },
+    "system.runner.lowdiskspacethreshold": {
+      "value": "100"
+    },
+    "DistributedTask.NewActionMetadata": {
+      "value": "true"
+    },
+    "DistributedTask.EnableCompositeActions": {
+      "value": "true"
+    },
+    "DistributedTask.EnhancedAnnotations": {
+      "value": "true"
+    },
+    "DistributedTask.UploadStepSummary": {
+      "value": "true"
+    },
+    "system.teamProjectId": {
+      "value": "00000000-0000-0000-0000-000000000000"
+    },
+    "build.buildId": {
+      "value": "6"
+    },
+    "build.containerId": {
+      "value": "131342"
+    },
+    "system.workflowFilePath": {
+      "value": ".github/workflows/about-us-testing.yml"
+    },
+    "system.phaseDisplayName": {
+      "value": "Run TestCafe Tests"
+    },
+    "system.phaseId": {
+      "value": "859b8d9a-8fd6-5a5c-6f5e-f84f1990894e"
+    },
+    "system.phaseName": {
+      "value": "test"
+    },
+    "system.phaseAttempt": {
+      "value": "1"
+    },
+    "system.jobIdentifier": {
+      "value": "test.__default"
+    },
+    "system.jobAttempt": {
+      "value": "1"
+    },
+    "System.JobPositionInPhase": {
+      "value": "1"
+    },
+    "System.TotalJobsInPhase": {
+      "value": "1"
+    },
+    "system.github.job": {
+      "value": "test"
+    },
+    "system.jobDisplayName": {
+      "value": "Run TestCafe Tests"
+    },
+    "system.jobId": {
+      "value": "5264e576-3c6f-51f6-f055-fab409685f20"
+    },
+    "system.jobName": {
+      "value": "__default"
+    },
+    "system.github.token.permissions": {
+      "value": "{\"Contents\":\"read\",\"Metadata\":\"read\"}"
+    },
+    "system.github.token": {
+      "value": "***",
+      "isSecret": true
+    },
+    "system.runnerGroupName": {
+      "value": "Default"
+    }
+  },
+  "messageType": "PipelineAgentJobRequest",
+  "plan": {
+    "scopeIdentifier": "00000000-0000-0000-0000-000000000000",
+    "planType": "Actions",
+    "version": 25,
+    "planId": "1159f8ed-e29f-48f6-a087-bed5cd8fad4c",
+    "planGroup": "Actions:00000000-0000-0000-0000-000000000000:1",
+    "artifactUri": "vstfs:///Build/Build/6",
+    "artifactLocation": null,
+    "definition": {
+      "_links": {},
+      "id": 3,
+      "name": "testcafe_integria"
+    },
+    "owner": {
+      "_links": {},
+      "id": 3,
+      "name": "SebEchegaray"
+    }
+  },
+  "timeline": {
+    "id": "1159f8ed-e29f-48f6-a087-bed5cd8fad4c",
+    "changeId": 0,
+    "location": null
+  },
+  "jobId": "5264e576-3c6f-51f6-f055-fab409685f20",
+  "jobDisplayName": "Run TestCafe Tests",
+  "jobName": "__default",
+  "requestId": 6,
+  "lockedUntil": "0001-01-01T00:00:00",
+  "resources": {
+    "endpoints": [
+      {
+        "data": {
+          "ServerId": "610b3630-3b23-440d-942a-a0761c192086",
+          "ServerName": "8bVFjSri8IazULahKhjsZ6BbSKsf8Fdf1TIGbsk3hUNl5TlUwH",
+          "CacheServerUrl": "https://artifactcache.actions.githubusercontent.com/8bVFjSri8IazULahKhjsZ6BbSKsf8Fdf1TIGbsk3hUNl5TlUwH/",
+          "FeedStreamUrl": "https://pipelines.actions.githubusercontent.com/8bVFjSri8IazULahKhjsZ6BbSKsf8Fdf1TIGbsk3hUNl5TlUwH/00000000-0000-0000-0000-000000000000/_apis/distributedtask/hubs/Actions/plans/1159f8ed-e29f-48f6-a087-bed5cd8fad4c/timelines/1159f8ed-e29f-48f6-a087-bed5cd8fad4c/records/5264e576-3c6f-51f6-f055-fab409685f20/feedstream?api-version=6.0-preview"
+        },
+        "name": "SystemVssConnection",
+        "url": "https://pipelines.actions.githubusercontent.com/8bVFjSri8IazULahKhjsZ6BbSKsf8Fdf1TIGbsk3hUNl5TlUwH/",
+        "authorization": {
+          "parameters": {
+            "AccessToken": ***
+          },
+          "scheme": "OAuth"
+        },
+        "isShared": false,
+        "isReady": true
+      }
+    ]
+  },
+  "contextData": {
+    "github": {
+      "t": 2,
+      "d": [
+        {
+          "k": "ref",
+          "v": "refs/heads/main"
+        },
+        {
+          "k": "sha",
+          "v": "97d31db7a2f10ff999f6266706e5fc28ef73fb95"
+        },
+        {
+          "k": "repository",
+          "v": "SebEchegaray/testcafe_integria"
+        },
+        {
+          "k": "repository_owner",
+          "v": "SebEchegaray"
+        },
+        {
+          "k": "repository_owner_id",
+          "v": "81540506"
+        },
+        {
+          "k": "repositoryUrl",
+          "v": "git://github.com/SebEchegaray/testcafe_integria.git"
+        },
+        {
+          "k": "run_id",
+          "v": "2342986678"
+        },
+        {
+          "k": "run_number",
+          "v": "6"
+        },
+        {
+          "k": "retention_days",
+          "v": "90"
+        },
+        {
+          "k": "run_attempt",
+          "v": "1"
+        },
+        {
+          "k": "artifact_cache_size_limit",
+          "v": "10"
+        },
+        {
+          "k": "repository_id",
+          "v": "493447493"
+        },
+        {
+          "k": "actor_id",
+          "v": "81540506"
+        },
+        {
+          "k": "actor",
+          "v": "SebEchegaray"
+        },
+        {
+          "k": "workflow",
+          "v": "End-to-End Tests"
+        },
+        {
+          "k": "head_ref",
+          "v": ""
+        },
+        {
+          "k": "base_ref",
+          "v": ""
+        },
+        {
+          "k": "event_name",
+          "v": "push"
+        },
+        {
+          "k": "event",
+          "v": {
+            "t": 2,
+            "d": [
+              {
+                "k": "after",
+                "v": "97d31db7a2f10ff999f6266706e5fc28ef73fb95"
+              },
+              {
+                "k": "base_ref",
+                "v": null
+              },
+              {
+                "k": "before",
+                "v": "42cd34154970e693cb76182c3337576bb39b3694"
+              },
+              {
+                "k": "commits",
+                "v": {
+                  "t": 1,
+                  "a": [
+                    {
+                      "t": 2,
+                      "d": [
+                        {
+                          "k": "author",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "dj.sebamatzzo@gmail.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Sebastian"
+                              },
+                              {
+                                "k": "username",
+                                "v": "SebEchegaray"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "committer",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "dj.sebamatzzo@gmail.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Sebastian"
+                              },
+                              {
+                                "k": "username",
+                                "v": "SebEchegaray"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "distinct",
+                          "v": true
+                        },
+                        {
+                          "k": "id",
+                          "v": "e8f2e20ab66c627c596fb5915bbc0f99a372594a"
+                        },
+                        {
+                          "k": "message",
+                          "v": "trying to revert\n\nq\neit\nexit\nqiut\nquit"
+                        },
+                        {
+                          "k": "timestamp",
+                          "v": "2022-05-18T13:52:31+10:00"
+                        },
+                        {
+                          "k": "tree_id",
+                          "v": "f6e5d18b58456d3959577845834c2b5c9aa7233f"
+                        },
+                        {
+                          "k": "url",
+                          "v": "https://github.com/SebEchegaray/testcafe_integria/commit/e8f2e20ab66c627c596fb5915bbc0f99a372594a"
+                        }
+                      ]
+                    },
+                    {
+                      "t": 2,
+                      "d": [
+                        {
+                          "k": "author",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "dj.sebamatzzo@gmail.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Sebastian"
+                              },
+                              {
+                                "k": "username",
+                                "v": "SebEchegaray"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "committer",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "dj.sebamatzzo@gmail.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Sebastian"
+                              },
+                              {
+                                "k": "username",
+                                "v": "SebEchegaray"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "distinct",
+                          "v": true
+                        },
+                        {
+                          "k": "id",
+                          "v": "9b59823ea3931fbc17b28fc9ce0364eec855dc61"
+                        },
+                        {
+                          "k": "message",
+                          "v": "Trying to revert to last log commit"
+                        },
+                        {
+                          "k": "timestamp",
+                          "v": "2022-05-18T13:53:13+10:00"
+                        },
+                        {
+                          "k": "tree_id",
+                          "v": "041d1afb0528ae99e849b6e8d151d985c35dceb1"
+                        },
+                        {
+                          "k": "url",
+                          "v": "https://github.com/SebEchegaray/testcafe_integria/commit/9b59823ea3931fbc17b28fc9ce0364eec855dc61"
+                        }
+                      ]
+                    },
+                    {
+                      "t": 2,
+                      "d": [
+                        {
+                          "k": "author",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "dj.sebamatzzo@gmail.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Sebastian"
+                              },
+                              {
+                                "k": "username",
+                                "v": "SebEchegaray"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "committer",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "dj.sebamatzzo@gmail.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Sebastian"
+                              },
+                              {
+                                "k": "username",
+                                "v": "SebEchegaray"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "distinct",
+                          "v": true
+                        },
+                        {
+                          "k": "id",
+                          "v": "97d31db7a2f10ff999f6266706e5fc28ef73fb95"
+                        },
+                        {
+                          "k": "message",
+                          "v": "LinkRoute.js file syntax fixed"
+                        },
+                        {
+                          "k": "timestamp",
+                          "v": "2022-05-18T13:58:00+10:00"
+                        },
+                        {
+                          "k": "tree_id",
+                          "v": "07462b40e1580d1c9d0642a93cb38f78a74d08a7"
+                        },
+                        {
+                          "k": "url",
+                          "v": "https://github.com/SebEchegaray/testcafe_integria/commit/97d31db7a2f10ff999f6266706e5fc28ef73fb95"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "compare",
+                "v": "https://github.com/SebEchegaray/testcafe_integria/compare/42cd34154970...97d31db7a2f1"
+              },
+              {
+                "k": "created",
+                "v": false
+              },
+              {
+                "k": "deleted",
+                "v": false
+              },
+              {
+                "k": "forced",
+                "v": false
+              },
+              {
+                "k": "head_commit",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "author",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "email",
+                            "v": "dj.sebamatzzo@gmail.com"
+                          },
+                          {
+                            "k": "name",
+                            "v": "Sebastian"
+                          },
+                          {
+                            "k": "username",
+                            "v": "SebEchegaray"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "committer",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "email",
+                            "v": "dj.sebamatzzo@gmail.com"
+                          },
+                          {
+                            "k": "name",
+                            "v": "Sebastian"
+                          },
+                          {
+                            "k": "username",
+                            "v": "SebEchegaray"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "distinct",
+                      "v": true
+                    },
+                    {
+                      "k": "id",
+                      "v": "97d31db7a2f10ff999f6266706e5fc28ef73fb95"
+                    },
+                    {
+                      "k": "message",
+                      "v": "LinkRoute.js file syntax fixed"
+                    },
+                    {
+                      "k": "timestamp",
+                      "v": "2022-05-18T13:58:00+10:00"
+                    },
+                    {
+                      "k": "tree_id",
+                      "v": "07462b40e1580d1c9d0642a93cb38f78a74d08a7"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://github.com/SebEchegaray/testcafe_integria/commit/97d31db7a2f10ff999f6266706e5fc28ef73fb95"
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "pusher",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "email",
+                      "v": "81540506+SebEchegaray@users.noreply.github.com"
+                    },
+                    {
+                      "k": "name",
+                      "v": "SebEchegaray"
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "ref",
+                "v": "refs/heads/main"
+              },
+              {
+                "k": "repository",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "allow_forking",
+                      "v": true
+                    },
+                    {
+                      "k": "archive_url",
+                      "v": "https://api.github.com/repos/SebEchegaray/testcafe_integria/{archive_format}{/ref}"
+                    },
+                    {
+                      "k": "archived",
+                      "v": false
+                    },
+                    {
+                      "k": "assignees_url",
+                      "v": "https://api.github.com/repos/SebEchegaray/testcafe_integria/assignees{/user}"
+                    },
+                    {
+                      "k": "blobs_url",
+                      "v": "https://api.github.com/repos/SebEchegaray/testcafe_integria/git/blobs{/sha}"
+                    },
+                    {
+                      "k": "branches_url",
+                      "v": "https://api.github.com/repos/SebEchegaray/testcafe_integria/branches{/branch}"
+                    },
+                    {
+                      "k": "clone_url",
+                      "v": "https://github.com/SebEchegaray/testcafe_integria.git"
+                    },
+                    {
+                      "k": "collaborators_url",
+                      "v": "https://api.github.com/repos/SebEchegaray/testcafe_integria/collaborators{/collaborator}"
+                    },
+                    {
+                      "k": "comments_url",
+                      "v": "https://api.github.com/repos/SebEchegaray/testcafe_integria/comments{/number}"
+                    },
+                    {
+                      "k": "commits_url",
+                      "v": "https://api.github.com/repos/SebEchegaray/testcafe_integria/commits{/sha}"
+                    },
+                    {
+                      "k": "compare_url",
+                      "v": "https://api.github.com/repos/SebEchegaray/testcafe_integria/compare/{base}...{head}"
+                    },
+                    {
+                      "k": "contents_url",
+                      "v": "https://api.github.com/repos/SebEchegaray/testcafe_integria/contents/{+path}"
+                    },
+                    {
+                      "k": "contributors_url",
+                      "v": "https://api.github.com/repos/SebEchegaray/testcafe_integria/contributors"
+                    },
+                    {
+                      "k": "created_at",
+                      "v": 1652831368.0
+                    },
+                    {
+                      "k": "default_branch",
+                      "v": "main"
+                    },
+                    {
+                      "k": "deployments_url",
+                      "v": "https://api.github.com/repos/SebEchegaray/testcafe_integria/deployments"
+                    },
+                    {
+                      "k": "description",
+                      "v": null
+                    },
+                    {
+                      "k": "disabled",
+                      "v": false
+                    },
+                    {
+                      "k": "downloads_url",
+                      "v": "https://api.github.com/repos/SebEchegaray/testcafe_integria/downloads"
+                    },
+                    {
+                      "k": "events_url",
+                      "v": "https://api.github.com/repos/SebEchegaray/testcafe_integria/events"
+                    },
+                    {
+                      "k": "fork",
+                      "v": false
+                    },
+                    {
+                      "k": "forks",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "forks_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "forks_url",
+                      "v": "https://api.github.com/repos/SebEchegaray/testcafe_integria/forks"
+                    },
+                    {
+                      "k": "full_name",
+                      "v": "SebEchegaray/testcafe_integria"
+                    },
+                    {
+                      "k": "git_commits_url",
+                      "v": "https://api.github.com/repos/SebEchegaray/testcafe_integria/git/commits{/sha}"
+                    },
+                    {
+                      "k": "git_refs_url",
+                      "v": "https://api.github.com/repos/SebEchegaray/testcafe_integria/git/refs{/sha}"
+                    },
+                    {
+                      "k": "git_tags_url",
+                      "v": "https://api.github.com/repos/SebEchegaray/testcafe_integria/git/tags{/sha}"
+                    },
+                    {
+                      "k": "git_url",
+                      "v": "git://github.com/SebEchegaray/testcafe_integria.git"
+                    },
+                    {
+                      "k": "has_downloads",
+                      "v": true
+                    },
+                    {
+                      "k": "has_issues",
+                      "v": true
+                    },
+                    {
+                      "k": "has_pages",
+                      "v": false
+                    },
+                    {
+                      "k": "has_projects",
+                      "v": true
+                    },
+                    {
+                      "k": "has_wiki",
+                      "v": true
+                    },
+                    {
+                      "k": "homepage",
+                      "v": null
+                    },
+                    {
+                      "k": "hooks_url",
+                      "v": "https://api.github.com/repos/SebEchegaray/testcafe_integria/hooks"
+                    },
+                    {
+                      "k": "html_url",
+                      "v": "https://github.com/SebEchegaray/testcafe_integria"
+                    },
+                    {
+                      "k": "id",
+                      "v": 493447493.0
+                    },
+                    {
+                      "k": "is_template",
+                      "v": false
+                    },
+                    {
+                      "k": "issue_comment_url",
+                      "v": "https://api.github.com/repos/SebEchegaray/testcafe_integria/issues/comments{/number}"
+                    },
+                    {
+                      "k": "issue_events_url",
+                      "v": "https://api.github.com/repos/SebEchegaray/testcafe_integria/issues/events{/number}"
+                    },
+                    {
+                      "k": "issues_url",
+                      "v": "https://api.github.com/repos/SebEchegaray/testcafe_integria/issues{/number}"
+                    },
+                    {
+                      "k": "keys_url",
+                      "v": "https://api.github.com/repos/SebEchegaray/testcafe_integria/keys{/key_id}"
+                    },
+                    {
+                      "k": "labels_url",
+                      "v": "https://api.github.com/repos/SebEchegaray/testcafe_integria/labels{/name}"
+                    },
+                    {
+                      "k": "language",
+                      "v": "JavaScript"
+                    },
+                    {
+                      "k": "languages_url",
+                      "v": "https://api.github.com/repos/SebEchegaray/testcafe_integria/languages"
+                    },
+                    {
+                      "k": "license",
+                      "v": null
+                    },
+                    {
+                      "k": "master_branch",
+                      "v": "main"
+                    },
+                    {
+                      "k": "merges_url",
+                      "v": "https://api.github.com/repos/SebEchegaray/testcafe_integria/merges"
+                    },
+                    {
+                      "k": "milestones_url",
+                      "v": "https://api.github.com/repos/SebEchegaray/testcafe_integria/milestones{/number}"
+                    },
+                    {
+                      "k": "mirror_url",
+                      "v": null
+                    },
+                    {
+                      "k": "name",
+                      "v": "testcafe_integria"
+                    },
+                    {
+                      "k": "node_id",
+                      "v": "R_kgDOHWlpRQ"
+                    },
+                    {
+                      "k": "notifications_url",
+                      "v": "https://api.github.com/repos/SebEchegaray/testcafe_integria/notifications{?since,all,participating}"
+                    },
+                    {
+                      "k": "open_issues",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "open_issues_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "owner",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "avatar_url",
+                            "v": "https://avatars.githubusercontent.com/u/81540506?v=4"
+                          },
+                          {
+                            "k": "email",
+                            "v": "81540506+SebEchegaray@users.noreply.github.com"
+                          },
+                          {
+                            "k": "events_url",
+                            "v": "https://api.github.com/users/SebEchegaray/events{/privacy}"
+                          },
+                          {
+                            "k": "followers_url",
+                            "v": "https://api.github.com/users/SebEchegaray/followers"
+                          },
+                          {
+                            "k": "following_url",
+                            "v": "https://api.github.com/users/SebEchegaray/following{/other_user}"
+                          },
+                          {
+                            "k": "gists_url",
+                            "v": "https://api.github.com/users/SebEchegaray/gists{/gist_id}"
+                          },
+                          {
+                            "k": "gravatar_id",
+                            "v": ""
+                          },
+                          {
+                            "k": "html_url",
+                            "v": "https://github.com/SebEchegaray"
+                          },
+                          {
+                            "k": "id",
+                            "v": 81540506.0
+                          },
+                          {
+                            "k": "login",
+                            "v": "SebEchegaray"
+                          },
+                          {
+                            "k": "name",
+                            "v": "SebEchegaray"
+                          },
+                          {
+                            "k": "node_id",
+                            "v": "MDQ6VXNlcjgxNTQwNTA2"
+                          },
+                          {
+                            "k": "organizations_url",
+                            "v": "https://api.github.com/users/SebEchegaray/orgs"
+                          },
+                          {
+                            "k": "received_events_url",
+                            "v": "https://api.github.com/users/SebEchegaray/received_events"
+                          },
+                          {
+                            "k": "repos_url",
+                            "v": "https://api.github.com/users/SebEchegaray/repos"
+                          },
+                          {
+                            "k": "site_admin",
+                            "v": false
+                          },
+                          {
+                            "k": "starred_url",
+                            "v": "https://api.github.com/users/SebEchegaray/starred{/owner}{/repo}"
+                          },
+                          {
+                            "k": "subscriptions_url",
+                            "v": "https://api.github.com/users/SebEchegaray/subscriptions"
+                          },
+                          {
+                            "k": "type",
+                            "v": "User"
+                          },
+                          {
+                            "k": "url",
+                            "v": "https://api.github.com/users/SebEchegaray"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "private",
+                      "v": false
+                    },
+                    {
+                      "k": "pulls_url",
+                      "v": "https://api.github.com/repos/SebEchegaray/testcafe_integria/pulls{/number}"
+                    },
+                    {
+                      "k": "pushed_at",
+                      "v": 1652846286.0
+                    },
+                    {
+                      "k": "releases_url",
+                      "v": "https://api.github.com/repos/SebEchegaray/testcafe_integria/releases{/id}"
+                    },
+                    {
+                      "k": "size",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "ssh_url",
+                      "v": "git@github.com:SebEchegaray/testcafe_integria.git"
+                    },
+                    {
+                      "k": "stargazers",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "stargazers_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "stargazers_url",
+                      "v": "https://api.github.com/repos/SebEchegaray/testcafe_integria/stargazers"
+                    },
+                    {
+                      "k": "statuses_url",
+                      "v": "https://api.github.com/repos/SebEchegaray/testcafe_integria/statuses/{sha}"
+                    },
+                    {
+                      "k": "subscribers_url",
+                      "v": "https://api.github.com/repos/SebEchegaray/testcafe_integria/subscribers"
+                    },
+                    {
+                      "k": "subscription_url",
+                      "v": "https://api.github.com/repos/SebEchegaray/testcafe_integria/subscription"
+                    },
+                    {
+                      "k": "svn_url",
+                      "v": "https://github.com/SebEchegaray/testcafe_integria"
+                    },
+                    {
+                      "k": "tags_url",
+                      "v": "https://api.github.com/repos/SebEchegaray/testcafe_integria/tags"
+                    },
+                    {
+                      "k": "teams_url",
+                      "v": "https://api.github.com/repos/SebEchegaray/testcafe_integria/teams"
+                    },
+                    {
+                      "k": "topics",
+                      "v": {
+                        "t": 1
+                      }
+                    },
+                    {
+                      "k": "trees_url",
+                      "v": "https://api.github.com/repos/SebEchegaray/testcafe_integria/git/trees{/sha}"
+                    },
+                    {
+                      "k": "updated_at",
+                      "v": "2022-05-17T23:49:55Z"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://github.com/SebEchegaray/testcafe_integria"
+                    },
+                    {
+                      "k": "visibility",
+                      "v": "public"
+                    },
+                    {
+                      "k": "watchers",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "watchers_count",
+                      "v": 0.0
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "sender",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "avatar_url",
+                      "v": "https://avatars.githubusercontent.com/u/81540506?v=4"
+                    },
+                    {
+                      "k": "events_url",
+                      "v": "https://api.github.com/users/SebEchegaray/events{/privacy}"
+                    },
+                    {
+                      "k": "followers_url",
+                      "v": "https://api.github.com/users/SebEchegaray/followers"
+                    },
+                    {
+                      "k": "following_url",
+                      "v": "https://api.github.com/users/SebEchegaray/following{/other_user}"
+                    },
+                    {
+                      "k": "gists_url",
+                      "v": "https://api.github.com/users/SebEchegaray/gists{/gist_id}"
+                    },
+                    {
+                      "k": "gravatar_id",
+                      "v": ""
+                    },
+                    {
+                      "k": "html_url",
+                      "v": "https://github.com/SebEchegaray"
+                    },
+                    {
+                      "k": "id",
+                      "v": 81540506.0
+                    },
+                    {
+                      "k": "login",
+                      "v": "SebEchegaray"
+                    },
+                    {
+                      "k": "node_id",
+                      "v": "MDQ6VXNlcjgxNTQwNTA2"
+                    },
+                    {
+                      "k": "organizations_url",
+                      "v": "https://api.github.com/users/SebEchegaray/orgs"
+                    },
+                    {
+                      "k": "received_events_url",
+                      "v": "https://api.github.com/users/SebEchegaray/received_events"
+                    },
+                    {
+                      "k": "repos_url",
+                      "v": "https://api.github.com/users/SebEchegaray/repos"
+                    },
+                    {
+                      "k": "site_admin",
+                      "v": false
+                    },
+                    {
+                      "k": "starred_url",
+                      "v": "https://api.github.com/users/SebEchegaray/starred{/owner}{/repo}"
+                    },
+                    {
+                      "k": "subscriptions_url",
+                      "v": "https://api.github.com/users/SebEchegaray/subscriptions"
+                    },
+                    {
+                      "k": "type",
+                      "v": "User"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://api.github.com/users/SebEchegaray"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "k": "server_url",
+          "v": "https://github.com"
+        },
+        {
+          "k": "api_url",
+          "v": "https://api.github.com"
+        },
+        {
+          "k": "graphql_url",
+          "v": "https://api.github.com/graphql"
+        },
+        {
+          "k": "ref_name",
+          "v": "main"
+        },
+        {
+          "k": "ref_protected",
+          "v": false
+        },
+        {
+          "k": "ref_type",
+          "v": "branch"
+        },
+        {
+          "k": "secret_source",
+          "v": "Actions"
+        }
+      ]
+    },
+    "needs": {
+      "t": 2
+    },
+    "inputs": null,
+    "matrix": null,
+    "strategy": {
+      "t": 2,
+      "d": [
+        {
+          "k": "fail-fast",
+          "v": true
+        },
+        {
+          "k": "job-index",
+          "v": 0.0
+        },
+        {
+          "k": "job-total",
+          "v": 1.0
+        },
+        {
+          "k": "max-parallel",
+          "v": 1.0
+        }
+      ]
+    }
+  }
+}
+[2022-05-18 03:58:15Z INFO JobRunner] Job ID 5264e576-3c6f-51f6-f055-fab409685f20
+[2022-05-18 03:58:15Z INFO JobRunner] Creating job server with URL: https://pipelines.actions.githubusercontent.com/8bVFjSri8IazULahKhjsZ6BbSKsf8Fdf1TIGbsk3hUNl5TlUwH/
+[2022-05-18 03:58:15Z INFO ConfigurationStore] currentAssemblyLocation: /Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/bin/Runner.Worker.dll
+[2022-05-18 03:58:15Z INFO HostContext] Well known directory 'Bin': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/bin'
+[2022-05-18 03:58:15Z INFO ConfigurationStore] binPath: /Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/bin
+[2022-05-18 03:58:15Z INFO HostContext] Well known directory 'Bin': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/bin'
+[2022-05-18 03:58:15Z INFO HostContext] Well known directory 'Root': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner'
+[2022-05-18 03:58:15Z INFO ConfigurationStore] RootFolder: /Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner
+[2022-05-18 03:58:15Z INFO HostContext] Well known directory 'Bin': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/bin'
+[2022-05-18 03:58:15Z INFO HostContext] Well known directory 'Root': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner'
+[2022-05-18 03:58:15Z INFO HostContext] Well known config file 'Runner': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/.runner'
+[2022-05-18 03:58:15Z INFO ConfigurationStore] ConfigFilePath: /Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/.runner
+[2022-05-18 03:58:15Z INFO HostContext] Well known directory 'Bin': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/bin'
+[2022-05-18 03:58:15Z INFO HostContext] Well known directory 'Root': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner'
+[2022-05-18 03:58:15Z INFO HostContext] Well known config file 'Credentials': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/.credentials'
+[2022-05-18 03:58:15Z INFO ConfigurationStore] CredFilePath: /Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/.credentials
+[2022-05-18 03:58:15Z INFO HostContext] Well known directory 'Bin': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/bin'
+[2022-05-18 03:58:15Z INFO HostContext] Well known directory 'Root': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner'
+[2022-05-18 03:58:15Z INFO HostContext] Well known config file 'MigratedCredentials': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/.credentials_migrated'
+[2022-05-18 03:58:15Z INFO ConfigurationStore] MigratedCredFilePath: /Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/.credentials_migrated
+[2022-05-18 03:58:15Z INFO HostContext] Well known directory 'Bin': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/bin'
+[2022-05-18 03:58:15Z INFO HostContext] Well known directory 'Root': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner'
+[2022-05-18 03:58:15Z INFO HostContext] Well known config file 'Service': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/.service'
+[2022-05-18 03:58:15Z INFO ConfigurationStore] ServiceConfigFilePath: /Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/.service
+[2022-05-18 03:58:15Z INFO ConfigurationStore] Read setting file: 309 chars
+[2022-05-18 03:58:15Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2022-05-18 03:58:15Z INFO Worker] Listening for cancel message from the channel.
+[2022-05-18 03:58:15Z INFO Worker] Waiting for the job to complete or for a cancel message from the channel.
+[2022-05-18 03:58:16Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2022-05-18 03:58:16Z INFO JobServer] Creating websocket client ...wss://pipelines.actions.githubusercontent.com/8bVFjSri8IazULahKhjsZ6BbSKsf8Fdf1TIGbsk3hUNl5TlUwH/00000000-0000-0000-0000-000000000000/_apis/distributedtask/hubs/Actions/plans/1159f8ed-e29f-48f6-a087-bed5cd8fad4c/timelines/1159f8ed-e29f-48f6-a087-bed5cd8fad4c/records/5264e576-3c6f-51f6-f055-fab409685f20/feedstream?api-version=6.0-preview
+[2022-05-18 03:58:16Z INFO JobServer] Attempting to start websocket client with delay 00:00:00.
+[2022-05-18 03:58:16Z INFO JobServerQueue] Start process web console line queue.
+[2022-05-18 03:58:16Z INFO JobServerQueue] Start process file upload queue.
+[2022-05-18 03:58:16Z INFO JobServerQueue] Start process timeline update queue.
+[2022-05-18 03:58:16Z INFO ExecutionContext] Initialize GitHub context
+[2022-05-18 03:58:16Z INFO ExecutionContext] Initialize Env context
+[2022-05-18 03:58:16Z INFO HostContext] Well known directory 'Bin': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/bin'
+[2022-05-18 03:58:16Z INFO HostContext] Well known directory 'Root': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner'
+[2022-05-18 03:58:16Z INFO HostContext] Well known directory 'Diag': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/_diag'
+[2022-05-18 03:58:16Z INFO JobRunner] Starting the job execution context.
+[2022-05-18 03:58:16Z INFO HostContext] Well known directory 'Bin': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/bin'
+[2022-05-18 03:58:16Z INFO HostContext] Well known directory 'Root': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner'
+[2022-05-18 03:58:16Z INFO HostContext] Well known directory 'Work': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/_work'
+[2022-05-18 03:58:16Z INFO JobRunner] Validating directory permissions for: '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/_work'
+[2022-05-18 03:58:16Z INFO HostContext] Well known directory 'Bin': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/bin'
+[2022-05-18 03:58:16Z INFO HostContext] Well known directory 'Root': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner'
+[2022-05-18 03:58:16Z INFO HostContext] Well known directory 'Work': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/_work'
+[2022-05-18 03:58:16Z INFO HostContext] Well known directory 'Tools': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/_work/_tool'
+[2022-05-18 03:58:16Z INFO HostContext] Well known directory 'Bin': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/bin'
+[2022-05-18 03:58:16Z INFO HostContext] Well known directory 'Root': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner'
+[2022-05-18 03:58:16Z INFO HostContext] Well known directory 'Work': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/_work'
+[2022-05-18 03:58:16Z INFO HostContext] Well known directory 'Temp': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/_work/_temp'
+[2022-05-18 03:58:16Z INFO JobRunner] Getting job extension.
+[2022-05-18 03:58:16Z INFO JobRunner] Initialize job. Getting all job steps.
+[2022-05-18 03:58:16Z INFO HostContext] Well known directory 'Bin': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/bin'
+[2022-05-18 03:58:16Z INFO HostContext] Well known directory 'Root': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner'
+[2022-05-18 03:58:16Z INFO HostContext] Well known directory 'Diag': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/_diag'
+[2022-05-18 03:58:16Z INFO HostContext] Well known directory 'Bin': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/bin'
+[2022-05-18 03:58:16Z INFO HostContext] Well known directory 'Root': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner'
+[2022-05-18 03:58:16Z INFO HostContext] Well known config file 'Credentials': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/.credentials'
+[2022-05-18 03:58:16Z INFO HostContext] Well known directory 'Bin': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/bin'
+[2022-05-18 03:58:16Z INFO HostContext] Well known directory 'Root': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner'
+[2022-05-18 03:58:16Z INFO HostContext] Well known config file 'SetupInfo': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/.setup_info'
+[2022-05-18 03:58:16Z INFO HostContext] Well known directory 'Bin': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/bin'
+[2022-05-18 03:58:16Z INFO HostContext] Well known directory 'Root': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner'
+[2022-05-18 03:58:16Z INFO HostContext] Well known directory 'Work': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/_work'
+[2022-05-18 03:58:16Z INFO PipelineDirectoryManager] Loading tracking config if exists: /Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/_work/_PipelineMapping/SebEchegaray/testcafe_integria/PipelineFolder.json
+[2022-05-18 03:58:16Z ERR  JobExtension] Caught exception from JobExtension Initialization: Newtonsoft.Json.JsonReaderException: Invalid property identifier character: <. Path 'repositories', line 11, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseProperty()
+   at Newtonsoft.Json.JsonTextReader.ParseObject()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at GitHub.Runner.Sdk.StringUtil.ConvertFromJson[T](String value)
+   at GitHub.Runner.Sdk.IOUtil.LoadObject[T](String path)
+   at GitHub.Runner.Worker.TrackingManager.LoadIfExists(IExecutionContext executionContext, String file)
+   at GitHub.Runner.Worker.PipelineDirectoryManager.PrepareDirectory(IExecutionContext executionContext, WorkspaceOptions workspace)
+   at GitHub.Runner.Worker.JobExtension.InitializeJob(IExecutionContext jobContext, AgentJobRequestMessage message)
+[2022-05-18 03:58:16Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "setup_job",
+  "type": "runner",
+  "stage": "Pre",
+  "stepId": "59d1f049-51b3-4ede-b214-a559974a83f4",
+  "result": "failed",
+  "errorMessages": [
+    "Invalid property identifier character: <. Path 'repositories', line 11, position 0."
+  ],
+  "executionTimeInSeconds": 1
+}.
+[2022-05-18 03:58:16Z ERR  JobRunner] Job initialize failed.
+[2022-05-18 03:58:16Z ERR  JobRunner] Caught exception from InitializeJob: Newtonsoft.Json.JsonReaderException: Invalid property identifier character: <. Path 'repositories', line 11, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseProperty()
+   at Newtonsoft.Json.JsonTextReader.ParseObject()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at GitHub.Runner.Sdk.StringUtil.ConvertFromJson[T](String value)
+   at GitHub.Runner.Sdk.IOUtil.LoadObject[T](String path)
+   at GitHub.Runner.Worker.TrackingManager.LoadIfExists(IExecutionContext executionContext, String file)
+   at GitHub.Runner.Worker.PipelineDirectoryManager.PrepareDirectory(IExecutionContext executionContext, WorkspaceOptions workspace)
+   at GitHub.Runner.Worker.JobExtension.InitializeJob(IExecutionContext jobContext, AgentJobRequestMessage message)
+   at GitHub.Runner.Worker.JobRunner.RunAsync(AgentJobRequestMessage message, CancellationToken jobRequestCancellationToken)
+[2022-05-18 03:58:16Z INFO JobRunner] Shutting down the job server queue.
+[2022-05-18 03:58:16Z INFO JobServerQueue] Fire signal to shutdown all queues.
+[2022-05-18 03:58:17Z INFO JobServer] Successfully started websocket client.
+[2022-05-18 03:58:17Z INFO JobServerQueue] All queue process task stopped.
+[2022-05-18 03:58:17Z INFO JobServerQueue] Try to append 1 batches web console lines for record '59d1f049-51b3-4ede-b214-a559974a83f4', success rate: 1/1.
+[2022-05-18 03:58:17Z INFO JobServerQueue] Web console line queue drained.
+[2022-05-18 03:58:17Z INFO JobServerQueue] Uploading 2 files in one shot.
+[2022-05-18 03:58:18Z INFO JobServerQueue] Try to upload 2 log files or attachments, success rate: 2/2.
+[2022-05-18 03:58:18Z INFO JobServerQueue] File upload queue drained.
+[2022-05-18 03:58:19Z INFO JobServerQueue] Job timeline record has been updated for the first time.
+[2022-05-18 03:58:19Z INFO JobServerQueue] Timeline update queue drained.
+[2022-05-18 03:58:19Z INFO JobServerQueue] Disposing job server ...
+[2022-05-18 03:58:19Z INFO JobServerQueue] All queue process tasks have been stopped, and all queues are drained.
+[2022-05-18 03:58:19Z INFO TempDirectoryManager] Cleaning runner temp folder: /Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/_work/_temp
+[2022-05-18 03:58:19Z INFO HostContext] Well known directory 'Bin': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/bin'
+[2022-05-18 03:58:19Z INFO HostContext] Well known directory 'Root': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner'
+[2022-05-18 03:58:19Z INFO HostContext] Well known directory 'Diag': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/_diag'
+[2022-05-18 03:58:19Z INFO HostContext] Well known config file 'Telemetry': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/_diag/.telemetry'
+[2022-05-18 03:58:19Z INFO JobRunner] Raising job completed event
+[2022-05-18 03:58:19Z INFO Worker] Job completed.
