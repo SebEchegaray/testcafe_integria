@@ -5,6 +5,6 @@ fixture`LinkRouting`
 
 test('About Us page', async t => {
     await t
-        .debug()
+        // .debug()
         .takeScreenshot();
 });
