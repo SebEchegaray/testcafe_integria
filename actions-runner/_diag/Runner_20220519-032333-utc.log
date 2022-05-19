@@ -1,0 +1,129 @@
+[2022-05-19 03:23:33Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2022-05-19 03:23:33Z INFO HostContext] Well known directory 'Bin': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/bin'
+[2022-05-19 03:23:33Z INFO HostContext] Well known directory 'Root': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner'
+[2022-05-19 03:23:33Z INFO HostContext] Well known config file 'Credentials': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/.credentials'
+[2022-05-19 03:23:33Z INFO HostContext] Well known directory 'Bin': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/bin'
+[2022-05-19 03:23:33Z INFO HostContext] Well known directory 'Root': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner'
+[2022-05-19 03:23:33Z INFO HostContext] Well known config file 'Runner': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/.runner'
+[2022-05-19 03:23:33Z INFO Listener] Runner is built for OSX (X64) - osx-x64.
+[2022-05-19 03:23:33Z INFO Listener] RuntimeInformation: Darwin 19.6.0 Darwin Kernel Version 19.6.0: Thu Oct 29 22:56:45 PDT 2020; root:xnu-6153.141.2.2~1/RELEASE_X86_64.
+[2022-05-19 03:23:34Z INFO Listener] Version: 2.291.1
+[2022-05-19 03:23:34Z INFO Listener] Commit: 496ec0df97891bd8e50f4431d01874ac3ab75a93
+[2022-05-19 03:23:34Z INFO Listener] Culture: en-AU
+[2022-05-19 03:23:34Z INFO Listener] UI Culture: en-AU
+[2022-05-19 03:23:34Z INFO HostContext] Well known directory 'Bin': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/bin'
+[2022-05-19 03:23:34Z INFO HostContext] Well known directory 'Root': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner'
+[2022-05-19 03:23:34Z INFO Listener] Validating directory permissions for: '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner'
+[2022-05-19 03:23:34Z INFO CommandLineParser] Parse
+[2022-05-19 03:23:34Z INFO CommandLineParser] Parsing 1 args
+[2022-05-19 03:23:34Z INFO CommandLineParser] parsing argument
+[2022-05-19 03:23:34Z INFO CommandLineParser] HasArgs: False
+[2022-05-19 03:23:34Z INFO CommandLineParser] Adding Command: run
+[2022-05-19 03:23:34Z INFO Listener] Arguments parsed
+[2022-05-19 03:23:34Z INFO Runner] ExecuteCommand
+[2022-05-19 03:23:34Z INFO ConfigurationStore] currentAssemblyLocation: /Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/bin/Runner.Listener.dll
+[2022-05-19 03:23:34Z INFO HostContext] Well known directory 'Bin': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/bin'
+[2022-05-19 03:23:34Z INFO ConfigurationStore] binPath: /Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/bin
+[2022-05-19 03:23:34Z INFO HostContext] Well known directory 'Bin': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/bin'
+[2022-05-19 03:23:34Z INFO HostContext] Well known directory 'Root': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner'
+[2022-05-19 03:23:34Z INFO ConfigurationStore] RootFolder: /Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner
+[2022-05-19 03:23:34Z INFO HostContext] Well known directory 'Bin': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/bin'
+[2022-05-19 03:23:34Z INFO HostContext] Well known directory 'Root': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner'
+[2022-05-19 03:23:34Z INFO HostContext] Well known config file 'Runner': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/.runner'
+[2022-05-19 03:23:34Z INFO ConfigurationStore] ConfigFilePath: /Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/.runner
+[2022-05-19 03:23:34Z INFO HostContext] Well known directory 'Bin': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/bin'
+[2022-05-19 03:23:34Z INFO HostContext] Well known directory 'Root': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner'
+[2022-05-19 03:23:34Z INFO HostContext] Well known config file 'Credentials': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/.credentials'
+[2022-05-19 03:23:34Z INFO ConfigurationStore] CredFilePath: /Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/.credentials
+[2022-05-19 03:23:34Z INFO HostContext] Well known directory 'Bin': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/bin'
+[2022-05-19 03:23:34Z INFO HostContext] Well known directory 'Root': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner'
+[2022-05-19 03:23:34Z INFO HostContext] Well known config file 'MigratedCredentials': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/.credentials_migrated'
+[2022-05-19 03:23:34Z INFO ConfigurationStore] MigratedCredFilePath: /Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/.credentials_migrated
+[2022-05-19 03:23:34Z INFO HostContext] Well known directory 'Bin': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/bin'
+[2022-05-19 03:23:34Z INFO HostContext] Well known directory 'Root': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner'
+[2022-05-19 03:23:34Z INFO HostContext] Well known config file 'Service': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/.service'
+[2022-05-19 03:23:34Z INFO ConfigurationStore] ServiceConfigFilePath: /Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/.service
+[2022-05-19 03:23:34Z INFO CommandSettings] Flag 'help': 'False'
+[2022-05-19 03:23:34Z INFO CommandSettings] Flag 'version': 'False'
+[2022-05-19 03:23:34Z INFO CommandSettings] Flag 'commit': 'False'
+[2022-05-19 03:23:34Z INFO CommandSettings] Flag 'check': 'False'
+[2022-05-19 03:23:34Z INFO CommandSettings] Command 'configure': 'False'
+[2022-05-19 03:23:34Z INFO CommandSettings] Command 'remove': 'False'
+[2022-05-19 03:23:34Z INFO CommandSettings] Command 'warmup': 'False'
+[2022-05-19 03:23:34Z INFO ConfigurationManager] LoadSettings
+[2022-05-19 03:23:34Z INFO ConfigurationStore] IsConfigured()
+[2022-05-19 03:23:34Z INFO ConfigurationStore] IsConfigured: True
+[2022-05-19 03:23:34Z INFO ConfigurationManager] Is configured: True
+[2022-05-19 03:23:34Z INFO ConfigurationStore] Read setting file: 309 chars
+[2022-05-19 03:23:34Z INFO ConfigurationManager] Settings Loaded
+[2022-05-19 03:23:34Z INFO ConfigurationStore] IsServiceConfigured()
+[2022-05-19 03:23:34Z INFO ConfigurationStore] IsServiceConfigured: False
+[2022-05-19 03:23:34Z INFO CommandSettings] Command 'run': 'True'
+[2022-05-19 03:23:34Z INFO ConfigurationStore] IsConfigured()
+[2022-05-19 03:23:34Z INFO ConfigurationStore] IsConfigured: True
+[2022-05-19 03:23:34Z INFO ConfigurationManager] Is configured: True
+[2022-05-19 03:23:34Z INFO Runner] Could not parse the argument value '' for StartupType. Defaulting to Manual
+[2022-05-19 03:23:34Z INFO Runner] Set runner startup type - Manual
+[2022-05-19 03:23:34Z INFO CommandSettings] Flag 'once': 'False'
+[2022-05-19 03:23:34Z INFO CommandSettings] Flag 'once': 'False'
+[2022-05-19 03:23:34Z INFO Runner] RunAsync
+[2022-05-19 03:23:34Z INFO ConfigurationManager] LoadSettings
+[2022-05-19 03:23:34Z INFO ConfigurationStore] IsConfigured()
+[2022-05-19 03:23:34Z INFO ConfigurationStore] IsConfigured: True
+[2022-05-19 03:23:34Z INFO ConfigurationManager] Is configured: True
+[2022-05-19 03:23:34Z INFO ConfigurationManager] Settings Loaded
+[2022-05-19 03:23:34Z INFO MessageListener] {
+  "AgentId": 2,
+  "AgentName": "Sebastians-MacBook-Pro",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://pipelines.actions.githubusercontent.com/8bVFjSri8IazULahKhjsZ6BbSKsf8Fdf1TIGbsk3hUNl5TlUwH",
+  "GitHubUrl": "https://github.com/SebEchegaray/testcafe_integria",
+  "WorkFolder": "_work"
+}
+[2022-05-19 03:23:34Z INFO MessageListener] Loading Credentials
+[2022-05-19 03:23:34Z INFO ConfigurationStore] HasCredentials()
+[2022-05-19 03:23:34Z INFO ConfigurationStore] stored True
+[2022-05-19 03:23:34Z INFO CredentialManager] GetCredentialProvider
+[2022-05-19 03:23:34Z INFO CredentialManager] Creating type OAuth
+[2022-05-19 03:23:34Z INFO CredentialManager] Creating credential type: OAuth
+[2022-05-19 03:23:34Z INFO HostContext] Well known directory 'Bin': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/bin'
+[2022-05-19 03:23:34Z INFO HostContext] Well known directory 'Root': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner'
+[2022-05-19 03:23:34Z INFO HostContext] Well known config file 'RSACredentials': '/Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/.credentials_rsaparams'
+[2022-05-19 03:23:34Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/.credentials_rsaparams
+[2022-05-19 03:23:34Z INFO MessageListener] Attempt to create session.
+[2022-05-19 03:23:34Z INFO MessageListener] Connecting to the Runner Server...
+[2022-05-19 03:23:34Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2022-05-19 03:23:34Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2022-05-19 03:23:34Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2022-05-19 03:23:34Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2022-05-19 03:23:34Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2022-05-19 03:23:34Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2022-05-19 03:23:35Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2022-05-19 03:23:35Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2022-05-19 03:23:35Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2022-05-19 03:23:35Z INFO MessageListener] VssConnection created
+[2022-05-19 03:23:35Z INFO Terminal] WRITE LINE: 
+[2022-05-19 03:23:35Z INFO Terminal] WRITE LINE: 
+[2022-05-19 03:23:35Z WARN GitHubActionsService] Authentication failed with status code 401.
+Transfer-Encoding: chunked
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: 270144e1-83ab-4638-bb68-f64a5045014c
+ActivityId: 60bc3156-3363-4dce-844e-d371c37d2e5f
+X-TFS-Session: 69813db0-67d5-4326-8fb3-d54f69dc9ccf
+X-VSS-E2EID: fbccdb97-603a-4987-a821-b134172c5d19
+X-VSS-SenderDeploymentId: 9d51f527-7c54-71ef-5aa4-7c3dc660eb8a
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: D537504A4A9D42CA9B9E8E577796883F Ref B: MEL01EDGE1819 Ref C: 2022-05-19T03:23:35Z
+Date: Thu, 19 May 2022 03:23:35 GMT
+
+[2022-05-19 03:23:36Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/.credentials_rsaparams
+[2022-05-19 03:23:36Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/sebechegaray/Desktop/TestCafe/IntegriaTesting/actions-runner/.credentials_rsaparams
+[2022-05-19 03:23:36Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2022-05-19 03:23:37Z INFO MessageListener] Session created.
+[2022-05-19 03:23:37Z INFO Terminal] WRITE LINE: Current runner version: '2.291.1'
+[2022-05-19 03:23:37Z INFO Terminal] WRITE LINE: 2022-05-19 03:23:37Z: Listening for Jobs
+[2022-05-19 03:23:37Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
